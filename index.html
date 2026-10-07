@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MAGRISKY - Services professionnels par drone dédiés au secteur agricole. Épandage de précision, cartographie NDVI, surveillance des cultures et analyse agronomique par drone.">
+    <meta name="keywords" content="drone agricole, épandage, NDVI, cartographie, agriculture de précision, MAGRISKY, Maroc">
+    <title>MAGRISKY — Services par drone pour l'agriculture de précision</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#accueil" class="logo">
+                <img src="assets/logo.png" alt="Logo MAGRISKY - deux pyramides dorées, icône de drone et champs en grille" class="logo-img">
+                <span class="logo-text">MAGRISKY</span>
+            </a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#avantages" class="nav-link">Avantages</a></li>
+                    <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-bg">
+            <img src="assets/hero-banner.png" alt="Bannière MAGRISKY - drone au-dessus d'un paysage désertique avec architecture traditionnelle et panneaux solaires" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <p class="hero-eyebrow">Innovation sans frontières</p>
+            <h1 class="hero-title">Technologie pour l'avenir <span class="accent">de l'agriculture</span></h1>
+            <p class="hero-subtitle">MAGRISKY propose des services professionnels par drone dédiés au secteur agricole : épandage de précision, cartographie NDVI, surveillance des cultures et analyse agronomique avancée.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">Découvrir nos services</a>
+                <a href="#contact" class="btn btn-outline">Demander un devis</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-suffix">ha/jour</span>
+                    <span class="stat-label">Capacité d'épandage</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="95">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Précision cartographique</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="30">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Économie d'intrants</span>
+                </div>
+            </div>
+        </div>
+        <a href="#services" class="scroll-indicator" aria-label="Défiler vers les services">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Nos expertises</span>
+                <h2 class="section-title">Services agricoles par drone</h2>
+                <p class="section-subtitle">Une flotte de drones agricoles dernière génération associée à une expertise agronomique pour optimiser chaque parcelle.</p>
+            </div>
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M32 8 L48 20 V44 L32 56 L16 44 V20 Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                            <circle cx="32" cy="32" r="6" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M22 22 L42 42 M42 22 L22 42" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Épandage de précision</h3>
+                    <p>Pulvérisation ciblée de pesticides, fongicides et engrais liquides. Débit variable, hauteur de vol maîtrisée, réduction du gaspillage et de l'exposition du personnel.</p>
+                    <ul class="service-features">
+                        <li>Traitement jusqu'à 100 ha/jour</li>
+                        <li>Technologie de vol RTK</li>
+                        <li>Zonage par GPS</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="10" y="14" width="44" height="36" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M10 26 H54 M10 38 H54" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M22 14 V50 M34 14 V50 M46 14 V50" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="28" cy="32" r="3" fill="currentColor"/>
+                            <circle cx="42" cy="20" r="2" fill="currentColor"/>
+                            <circle cx="18" cy="44" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Cartographie &amp; NDVI</h3>
+                    <p>Relevés aériens haute résolution et indices de végétation multispectraux. Identification des zones de stress hydrique, carences et hétérogénéités parcellaires.</p>
+                    <ul class="service-features">
+                        <li>Orthomosaïques géoréférencées</li>
+                        <li>Cartes NDVI / NDRE / GNDVI</li>
+                        <li>Rapports PDF exploitables</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <circle cx="32" cy="28" r="14" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M32 18 V38 M22 28 H42" stroke="currentColor" stroke-width="2"/>
+                            <rect x="20" y="44" width="24" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M28 50 H36" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Surveillance des cultures</h3>
+                    <p>Monitoring régulier du développement cultural, détection précoce des maladies, comptage de plants et estimation des récoltes par imagerie aérienne.</p>
+                    <ul class="service-features">
+                        <li>Suivi phénologique</li>
+                        <li>Détection des adventices</li>
+                        <li>Inventaire plantation</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M12 50 H52" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M20 50 V38 C20 32 26 28 32 28 C38 28 44 32 44 38 V50" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                            <circle cx="24" cy="28" r="2" fill="currentColor"/>
+                            <circle cx="40" cy="28" r="2" fill="currentColor"/>
+                            <circle cx="32" cy="22" r="2" fill="currentColor"/>
+                            <path d="M32 28 V18" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2"/>
+                        </svg>
+                    </div>
+                    <h3>Conseil agronomique</h3>
+                    <p>Interprétation des données aériennes par nos agronomes : recommandations d'irrigation, plans de fertilisation modulés et stratégies phytosanitaires ciblées.</p>
+                    <ul class="service-features">
+                        <li>Diagnostic personnalisé</li>
+                        <li>Plans de fertilisation</li>
+                        <li>Suivi saisonnier</li>
+                    </ul>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages Section -->
+    <section class="advantages" id="avantages">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-eyebrow">Pourquoi MAGRISKY</span>
+                <h2 class="section-title">Une agriculture plus intelligente, plus durable</h2>
+                <p class="section-subtitle">Le drone agricole permet de gagner du temps, d'économiser des intrants et de prendre des décisions éclairées sur chaque mètre carré.</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <div class="advantage-number">01</div>
+                    <h3>Gain de temps</h3>
+                    <p>Un drone agricole traite plusieurs dizaines d'hectares par heure, même sur terrains difficiles d'accès, sans risque de tassement du sol.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">02</div>
+                    <h3>Économie d'intrants</h3>
+                    <p>Application modulée et ciblée : jusqu'à 30% d'économie d'eau, de produits phytosanitaires et d'engrais par rapport aux méthodes classiques.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">03</div>
+                    <h3>Précision centimétrique</h3>
+                    <p>Positionnement RTK et capteurs multispectraux pour des interventions au plus près des besoins réels de chaque plante.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">04</div>
+                    <h3>Données exploitables</h3>
+                    <p>Cartes, indices et rapports remis au format exploitable : intégration directe dans vos outils de gestion agricole.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">05</div>
+                    <h3>Sécurité renforcée</h3>
+                    <p>L'opérateur reste à distance des zones traitées, limitant l'exposition aux produits et les risques d'accident.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">06</div>
+                    <h3>Respect de l'environnement</h3>
+                    <p>Moins de dérive, moins de ruissellement, meilleure santé des sols : l'agriculture de précision œuvre pour des pratiques plus durables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie Section -->
+    <section class="gallery" id="galerie">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Sur le terrain</span>
+                <h2 class="section-title">Notre flotte en action</h2>
+                <p class="section-subtitle">Découvrez nos drones agricoles de type DJI Agras, conçus pour les grandes exploitations comme pour les parcelles intensives.</p>
+            </div>
+            <div class="gallery-grid">
+
+                <figure class="gallery-item gallery-item--large">
+                    <img src="assets/drone-1.jpg" alt="Drone agricole MAGRISKY en vol stationnaire avec ciel bleu clair, réservoir central blanc et bras coaxial noirs" loading="lazy">
+                    <figcaption>Drone d'épandage — vol stationnaire</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="assets/drone-2.jpg" alt="Drone agricole MAGRISKY vu de face avec châssis noir, bras multi-rotors et rampes de pulvérisation déployées" loading="lazy">
+                    <figcaption>Configuration pulvérisation</figcaption>
+                </figure>
+
+                <figure class="gallery-item gallery-item--video">
+                    <video controls preload="metadata" poster="assets/drone-1.jpg" aria-label="Vidéo de démonstration d'un vol de drone agricole">
+                        <source src="assets/drone-video.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture vidéo.
+                    </video>
+                    <figcaption>Démonstration vidéo — vol opérationnel</figcaption>
+                </figure>
+
+                <figure class="gallery-item gallery-item--banner">
+                    <img src="assets/hero-banner.png" alt="Bannière MAGRISKY : drone survolant un paysage désertique avec architecture traditionnelle, panneaux solaires et réseaux numériques" loading="lazy">
+                    <figcaption>Innovation sans frontières</figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos Section -->
+    <section class="about" id="apropos">
+        <div class="container about-container">
+            <div class="about-content">
+                <span class="section-eyebrow">À propos de MAGRISKY</span>
+                <h2 class="section-title">Une équipe passionnée par l'agriculture de précision</h2>
+                <p>MAGRISKY est une entreprise spécialisée dans les services par drone dédiés au secteur agricole. Nous combinons une expertise agronomique pointue avec les dernières technologies de drones professionnels pour offrir aux exploitants agricoles des solutions précises, rapides et durables.</p>
+                <p>De l'épandage à la cartographie multispectrale, nous accompagnons les agriculteurs, coopératives et investisseurs dans la modernisation de leurs pratiques, afin d'optimiser les rendements tout en préservant les ressources naturelles.</p>
+                <div class="about-tags">
+                    <span class="tag">Agriculture de précision</span>
+                    <span class="tag">Drone agricole</span>
+                    <span class="tag">NDVI</span>
+                    <span class="tag">Épandage</span>
+                    <span class="tag">Cartographie</span>
+                    <span class="tag">Conseil agronomique</span>
+                </div>
+            </div>
+            <aside class="about-card">
+                <h3>Notre mission</h3>
+                <p>Mettre la technologie aérienne au service d'une agriculture plus performante, plus rentable et plus respectueuse de l'environnement.</p>
+                <div class="about-mission">
+                    <div class="mission-line"><strong>Vision</strong>Devenir le partenaire de référence des agriculteurs pour la transition technologique du secteur.</div>
+                    <div class="mission-line"><strong>Valeurs</strong>Innovation, fiabilité, durabilité et proximité terrain.</div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <span class="section-eyebrow light">Contact</span>
+                <h2 class="section-title light">Demandez votre devis personnalisé</h2>
+                <p class="contact-intro">Parlez-nous de vos parcelles, de vos cultures et de vos besoins : nos experts vous proposent une solution sur mesure sous 48 heures.</p>
+                <ul class="contact-list">
+                    <li>
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Adresse</strong>
+                            <span>[Adresse à compléter] — Maroc</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <strong>Téléphone</strong>
+                            <span>+212 [numéro à compléter]</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <span>contact@magrisky.com</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-icon">🕘</span>
+                        <div>
+                            <strong>Horaires</strong>
+                            <span>Lun — Sam : 8h00 — 18h00</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nom complet *</label>
+                        <input type="text" id="name" name="name" required minlength="2" placeholder="Votre nom">
+                        <span class="error-msg" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone *</label>
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9+\-\s]{6,}" placeholder="+212 ...">
+                        <span class="error-msg" id="phoneError"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required placeholder="exemple@domaine.com">
+                    <span class="error-msg" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service souhaité *</label>
+                    <select id="service" name="service" required>
+                        <option value="">— Sélectionner un service —</option>
+                        <option value="epandage">Épandage de précision</option>
+                        <option value="cartographie">Cartographie &amp; NDVI</option>
+                        <option value="surveillance">Surveillance des cultures</option>
+                        <option value="conseil">Conseil agronomique</option>
+                        <option value="autre">Autre / à préciser</option>
+                    </select>
+                    <span class="error-msg" id="serviceError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="surface">Surface estimée (hectares)</label>
+                    <input type="number" id="surface" name="surface" min="0" step="0.1" placeholder="ex : 25">
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre message *</label>
+                    <textarea id="message" name="message" required minlength="10" rows="5" placeholder="Décrivez votre exploitation, vos cultures, vos besoins..."></textarea>
+                    <span class="error-msg" id="messageError"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit">Envoyer ma demande</button>
+                <p class="form-success" id="formSuccess" hidden>✅ Merci ! Votre demande a bien été envoyée. Nous revenons vers vous sous 48h.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Logo MAGRISKY" class="footer-logo">
+                <p class="footer-baseline">Innovation sans frontières — Technologie pour l'avenir</p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Épandage de précision</a></li>
+                    <li><a href="#services">Cartographie NDVI</a></li>
+                    <li><a href="#services">Surveillance des cultures</a></li>
+                    <li><a href="#services">Conseil agronomique</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#avantages">Avantages</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Suivez-nous</h4>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook" class="social-link">Fb</a>
+                    <a href="#" aria-label="Instagram" class="social-link">Ig</a>
+                    <a href="#" aria-label="LinkedIn" class="social-link">In</a>
+                    <a href="#" aria-label="YouTube" class="social-link">Yt</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> MAGRISKY — Tous droits réservés.</p>
+            <p>Services par drone dédiés au secteur agricole.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut de page">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
